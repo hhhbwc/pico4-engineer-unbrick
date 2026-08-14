@@ -28,7 +28,7 @@ PICO 4 变砖救砖包，基于 Qualcomm 9008 模式全量刷写。
 | 包 | 说明 | 链接 |
 |---|---|---|
 | GitHub 轻包 | 脚本 + 工具 + 驱动 | 本仓库 |
-| Google Drive 全量包 | Flash 分区镜像 | `REPLACE_WITH_GOOGLE_DRIVE_LINK` |
+| Google Drive 全量包 | Flash 分区镜像 | 上传好慢，你看到了？你怎么来的那么快？等我睡醒再改上链接 |
 
 这个包已经包含了9008，adb，fastboot等工具，开盖即食
 
@@ -112,7 +112,7 @@ PICO 4 brick recovery package. Full flash via Qualcomm 9008 mode.
 | Package | Description | Link |
 |---|---|---|
 | GitHub light pack | Scripts + tools + drivers | This repo |
-| Google Drive full bundle | Flash partition images | `REPLACE_WITH_GOOGLE_DRIVE_LINK` |
+| Google Drive full bundle | Flash partition images | Uploading... It's huge. You can wait or I'll paste the link when I wake up. |
 
 This package includes 9008 tools, adb, fastboot and everything needed — ready to use out of the box.
 
@@ -196,7 +196,7 @@ Thanks to [PhoenixPlace forum](https://phoenixplace.xyz/showthread.php?tid=3744)
 | Пакет | Описание | Ссылка |
 |---|---|---|
 | GitHub (облегчённый) | Скрипты + инструменты + драйверы | Этот репозиторий |
-| Google Drive (полный) | Образы разделов Flash | `REPLACE_WITH_GOOGLE_DRIVE_LINK` |
+| Google Drive (полный) | Образы разделов Flash | Загружается... Проснусь — добавлю ссылку. |
 
 В пакет уже включены инструменты для 9008, adb, fastboot и всё необходимое — готово к использованию.
 
