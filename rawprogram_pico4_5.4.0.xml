@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+  <!-- Complete 5.4.0 firmware, 4096-byte UFS sectors. Excludes GPT, userdata, persist, cache, EFS/modemst, devinfo, and calibration. -->
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun0_super.bin" label="super" num_partition_sectors="2097152" physical_partition_number="0" start_sector="664072" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun0_recovery.bin" label="recovery" num_partition_sectors="25600" physical_partition_number="0" start_sector="2761224" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun0_vbmeta_system.bin" label="vbmeta_system" num_partition_sectors="1" physical_partition_number="0" start_sector="2786824" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun0_vbmeta_systembak.bin" label="vbmeta_systembak" num_partition_sectors="1" physical_partition_number="0" start_sector="2786840" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun1_xbl.bin" label="xbl" num_partition_sectors="839" physical_partition_number="1" start_sector="6" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun1_xbl_config.bin" label="xbl_config" num_partition_sectors="23" physical_partition_number="1" start_sector="902" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun2_xblbak.bin" label="xblbak" num_partition_sectors="839" physical_partition_number="2" start_sector="6" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun2_xbl_configbak.bin" label="xbl_configbak" num_partition_sectors="23" physical_partition_number="2" start_sector="902" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_abl.bin" label="abl" num_partition_sectors="51" physical_partition_number="4" start_sector="113798" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_ablbak.bin" label="ablbak" num_partition_sectors="51" physical_partition_number="4" start_sector="284666" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_aop.bin" label="aop" num_partition_sectors="50" physical_partition_number="4" start_sector="6" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_aopbak.bin" label="aopbak" num_partition_sectors="50" physical_partition_number="4" start_sector="170874" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_bluetooth.bin" label="bluetooth" num_partition_sectors="219" physical_partition_number="4" start_sector="104326" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_bluetoothbak.bin" label="bluetoothbak" num_partition_sectors="219" physical_partition_number="4" start_sector="275194" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_boot.bin" label="boot" num_partition_sectors="24576" physical_partition_number="4" start_sector="130566" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_bootbak.bin" label="bootbak" num_partition_sectors="24576" physical_partition_number="4" start_sector="301434" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_cmnlib.bin" label="cmnlib" num_partition_sectors="98" physical_partition_number="4" start_sector="155142" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_cmnlibbak.bin" label="cmnlibbak" num_partition_sectors="98" physical_partition_number="4" start_sector="326010" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_cmnlib64.bin" label="cmnlib64" num_partition_sectors="127" physical_partition_number="4" start_sector="155270" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_cmnlib64bak.bin" label="cmnlib64bak" num_partition_sectors="127" physical_partition_number="4" start_sector="326138" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_devcfg.bin" label="devcfg" num_partition_sectors="14" physical_partition_number="4" start_sector="155398" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_devcfgbak.bin" label="devcfgbak" num_partition_sectors="14" physical_partition_number="4" start_sector="326266" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_dsp.bin" label="dsp" num_partition_sectors="16384" physical_partition_number="4" start_sector="114054" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_dspbak.bin" label="dspbak" num_partition_sectors="16384" physical_partition_number="4" start_sector="284922" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_dtbo.bin" label="dtbo" num_partition_sectors="2048" physical_partition_number="4" start_sector="155466" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_dtbobak.bin" label="dtbobak" num_partition_sectors="2048" physical_partition_number="4" start_sector="326334" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_hyp.bin" label="hyp" num_partition_sectors="110" physical_partition_number="4" start_sector="1158" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_hypbak.bin" label="hypbak" num_partition_sectors="110" physical_partition_number="4" start_sector="172026" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_imagefv.bin" label="imagefv" num_partition_sectors="19" physical_partition_number="4" start_sector="170362" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_imagefvbak.bin" label="imagefvbak" num_partition_sectors="19" physical_partition_number="4" start_sector="341230" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_modem.bin" label="modem" num_partition_sectors="14951" physical_partition_number="4" start_sector="3206" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_modembak.bin" label="modembak" num_partition_sectors="14951" physical_partition_number="4" start_sector="174074" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_qupfw.bin" label="qupfw" num_partition_sectors="14" physical_partition_number="4" start_sector="155430" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_qupfwbak.bin" label="qupfwbak" num_partition_sectors="14" physical_partition_number="4" start_sector="326298" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_tz.bin" label="tz" num_partition_sectors="780" physical_partition_number="4" start_sector="134" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_tzbak.bin" label="tzbak" num_partition_sectors="780" physical_partition_number="4" start_sector="171002" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_vbmeta.bin" label="vbmeta" num_partition_sectors="2" physical_partition_number="4" start_sector="155450" />
+  <program SECTOR_SIZE_IN_BYTES="4096" filename="lun4_vbmetabak.bin" label="vbmetabak" num_partition_sectors="2" physical_partition_number="4" start_sector="326318" />
+</data>
