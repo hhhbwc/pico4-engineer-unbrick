@@ -17,6 +17,9 @@ PICO 4 变砖救砖包，基于 Qualcomm 9008 模式全量刷写。
 1. 下载本仓库（GitHub 轻包）
 2. 下载全量包（Google Drive 链接见下方）
 3. 把全量包里的 `Flash` 文件夹解压到本仓库根目录
+
+![目录结构](github.png)
+
 4. 右键 `初始化环境_管理员运行.cmd` → 以管理员身份运行
 5. 运行 `刷入_PICO4_5.4.0_9008.cmd`
 
@@ -98,6 +101,9 @@ PICO 4 brick recovery package. Full flash via Qualcomm 9008 mode.
 1. Download this repo (GitHub light pack)
 2. Download the full bundle (Google Drive link below)
 3. Extract the `Flash` folder from the bundle into the repo root
+
+![Directory structure](github.png)
+
 4. Right-click `初始化环境_管理员运行.cmd` → Run as Administrator
 5. Run `刷入_PICO4_5.4.0_9008.cmd`
 
@@ -179,6 +185,9 @@ Thanks to [PhoenixPlace forum](https://phoenixplace.xyz/showthread.php?tid=3744)
 1. Скачайте этот репозиторий (облегчённый пакет GitHub)
 2. Скачайте полный пакет (ссылка на Google Drive ниже)
 3. Распакуйте папку `Flash` из полного пакета в корень репозитория
+
+![Структура директории](github.png)
+
 4. Правой кнопкой мыши на `初始化环境_管理员运行.cmd` → Запуск от имени администратора
 5. Запустите `刷入_PICO4_5.4.0_9008.cmd`
 
